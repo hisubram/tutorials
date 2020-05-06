@@ -27,10 +27,11 @@ Definitions of the term data lake vary, but in the context of this tutorial, a d
 
 ## Services used
 
-- [{{site.data.keyword.cos_short}}](https://{DomainName}/catalog/services/cloud-object-storage)
-- [SQL Query](https://{DomainName}/catalog/services/sql-query)
-- [{{site.data.keyword.DSX}}](https://{DomainName}/catalog/services/watson-studio)
-- [{{site.data.keyword.dynamdashbemb_notm}}](https://{DomainName}/catalog/services/ibm-cognos-dashboard-embedded)
+This tutorial uses the following runtimes and services:
+* [{{site.data.keyword.cos_short}}](https://{DomainName}/catalog/services/cloud-object-storage)
+* [SQL Query](https://{DomainName}/catalog/services/sql-query)
+* [{{site.data.keyword.DSX}}](https://{DomainName}/catalog/services/watson-studio)
+* [{{site.data.keyword.dynamdashbemb_notm}}](https://{DomainName}/catalog/services/ibm-cognos-dashboard-embedded)
 
 ## Architecture
 
@@ -132,6 +133,7 @@ In this section, you will upload data to an {{site.data.keyword.cos_short}} buck
 2. In your browser, access the **data-lake-cos** service instance from the [Resource List](https://{DomainName}/resources).
 3. Create a new bucket to store data.
     - Click **Create a bucket**.
+    - Select **Custom bucket**.
     - Select **Regional** from the **Resiliency** drop down.
     - Select **us-south** from the **Location**. {{site.data.keyword.CHSTSshort}} is only available for buckets created in the `us-south` location at this time. Alternatively, choose another location and use the **Standard** transfer type in the next section.
     - Provide a bucket **Name** and click **Create**. If you receive an *AccessDenied* error, try with an unique bucket name.

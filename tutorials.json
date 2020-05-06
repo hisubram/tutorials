@@ -98,7 +98,7 @@
             "Container Registry",
             "Node.js"
           ],
-          "lastUpdated": "2020-02-21"
+          "lastUpdated": "2020-04-21"
         },
         {
           "name": "Accelerate delivery of static files using Object Storage and CDN",
@@ -190,7 +190,7 @@
             "PHP",
             "File Storage"
           ],
-          "lastUpdated": "2019-06-19"
+          "lastUpdated": "2020-04-08"
         },
         {
           "name": "Modern web application using MEAN stack",
@@ -214,7 +214,7 @@
             "Python",
             "Db2 Warehouse"
           ],
-          "lastUpdated": "2019-10-01"
+          "lastUpdated": "2020-04-15"
         },
         {
           "name": "Serverless web application and API",
@@ -226,7 +226,7 @@
             "API Gateway",
             "Cloudant NoSQL DB"
           ],
-          "lastUpdated": "2019-12-13"
+          "lastUpdated": "2020-03-31"
         },
         {
           "name": "Deploy serverless apps across multiple regions",
@@ -425,6 +425,19 @@
       "anchor": "ml",
       "solutions": [
         {
+          "name": "Computer vision with Visual Insights and Schematics",
+          "url": "computer-vision-visual-insights-schematics.html",
+          "description": "Provision a backend instance of Visual Insights in VPC and access the deployed deep learning model through a webapp for image classification",
+          "imgSrc": "images/solution53-visual-insights-schematics/architecture_diagram.png",
+          "tags": [
+            "Visual Insights",
+            "Schematics",
+            "Infrastructure",
+            "Virtual Private Cloud"
+          ],
+          "lastUpdated": "2020-04-06"
+        },
+        {
           "name": "Big data logs with streaming analytics and SQL",
           "url": "big-data-log-analytics.html",
           "description": "Collect, store and analyze log records to support regulatory requirements and aid information discovery. Using publish-subscribe messaging, scale the solution to millions of records and then perform analysis on persisted logs with familiar SQL.",
@@ -464,7 +477,7 @@
           "lastUpdated": "2019-11-21"
         },
         {
-          "name": "Build, deploy, test, and retrain a predictive machine learning model",
+          "name": "Build, deploy, test and monitor a predictive machine learning model",
           "url": "create-deploy-retrain-machine-learning-model.html",
           "description": "Build a predictive machine learning model, deploy it as an API, test and retrain the model with feedback data.",
           "imgSrc": "images/solution22-build-machine-learning-model/architecture_diagram.png",
@@ -475,7 +488,7 @@
             "Cloud Object Storage",
             "Db2 Warehouse"
           ],
-          "lastUpdated": "2019-12-03"
+          "lastUpdated": "2020-04-23"
         },
         {
           "name": "Analyze and visualize open data with Apache Spark",

@@ -35,9 +35,9 @@ There are many reasons why you would use a Content Delivery Network in these sit
 ## Services used
 {: #services}
 
-This tutorial uses the following products:
-   * [{{site.data.keyword.cos_full_notm}}](https://{DomainName}/catalog/services/cloud-object-storage)
-   * [{{site.data.keyword.cdn_full}}](https://{DomainName}/catalog/infrastructure/cdn-powered-by-akamai)
+This tutorial uses the following runtimes and services:
+   - [{{site.data.keyword.cos_full_notm}}](https://{DomainName}/catalog/services/cloud-object-storage)
+   - [{{site.data.keyword.cdn_full}}](https://{DomainName}/catalog/infrastructure/cdn-powered-by-akamai)
 
 This tutorial may incur costs. Use the [Pricing Calculator](https://{DomainName}/estimator/review) to generate a cost estimate based on your projected usage.
 
@@ -88,6 +88,7 @@ To start, retrieve the application code:
 1. Go to the [catalog](https://{DomainName}/catalog/) in the console, and select [**Object Storage**](https://{DomainName}/catalog/services/cloud-object-storage) from the Storage section.
 2. Create a new instance of {{site.data.keyword.cos_full_notm}}
 4. In the service dashboard, click **Create Bucket**.
+   * Select **Custom bucket**
    * Set the **Resiliency** to **Regional**.
 5. Set a unique bucket name such as `username-mywebsite` and click **Create**. Avoid dots (.) in the bucket name.
 1. Select **Buckets > Access Policies**, then select **Public Access** and **Create access policy**. This will enable all contents in the bucket to be publicly accessible.
